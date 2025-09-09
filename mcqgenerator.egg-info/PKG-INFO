@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mcqgenerator
+Version: 0.0.1
+Author: shashwat mishra
+Author-email: mishrashashwat066@gmail.com
+Requires-Dist: huggingface-hub
+Requires-Dist: langchain
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: PyPDF2
