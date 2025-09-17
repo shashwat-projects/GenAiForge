@@ -7,8 +7,8 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
 from langchain_core.output_parsers import JsonOutputParser
-from src.mcqgenerator.logger import logging
-from src.mcqgenerator.utils import read_file, convert_to_pandasdf
+from src.quizforgeai.logger import logging
+from src.quizforgeai.utils import read_file, convert_to_pandasdf
 
 warnings.filterwarnings("ignore")
 

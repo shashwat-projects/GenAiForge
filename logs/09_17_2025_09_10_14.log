@@ -1,3 +1,0 @@
-[2025-09-17 09:10:58,309] 97 root - INFO - File read successfully.
-[2025-09-17 09:11:11,569] 128 root - INFO - MCQs generated and displayed successfully.
-[2025-09-17 09:11:11,571] 160 root - ERROR - An error occurred: 'list' object has no attribute 'to_csv'

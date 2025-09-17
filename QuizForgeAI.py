@@ -3,13 +3,13 @@ import pandas as pd
 import warnings
 import json
 import streamlit as st
-from src.mcqgenerator.logger import logging
-from src.mcqgenerator.utils import read_file, convert_to_pandasdf
-from src.mcqgenerator.mcqgenerator import generate_evaluate_chain 
+from src.quizforgeai.logger import logging
+from src.quizforgeai.utils import read_file, convert_to_pandasdf
+from src.quizforgeai.quizforgeai import generate_evaluate_chain 
 
 warnings.filterwarnings("ignore")
 
-with open(r"D:\Gen Ai\MCQGenerator\response.json", "r") as file:
+with open(r"response.json", "r") as file:
     response = json.load(file)
 
 
