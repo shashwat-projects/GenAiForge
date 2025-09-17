@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Metadata-Version: 2.4
+=======
+Metadata-Version: 2.1
+>>>>>>> a086e3434c641251fdfd9361d7b16c3c9100836f
 Name: mcqgenerator
 Version: 0.0.1
 Author: shashwat mishra
@@ -8,6 +12,9 @@ Requires-Dist: langchain
 Requires-Dist: streamlit
 Requires-Dist: python-dotenv
 Requires-Dist: PyPDF2
+<<<<<<< HEAD
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist
+=======
+>>>>>>> a086e3434c641251fdfd9361d7b16c3c9100836f
