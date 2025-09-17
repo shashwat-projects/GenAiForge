@@ -1,0 +1,4 @@
+[2025-09-17 09:26:04,818] 156 root - INFO - File read successfully.
+[2025-09-17 09:26:11,918] 229 root - ERROR - An error occurred: 402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-68ca315b-4e9565a56fd0baa1254eb68e;4819179e-0204-4767-aa67-8a3a493ffbd8)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
