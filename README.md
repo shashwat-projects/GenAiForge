@@ -49,15 +49,15 @@ streamlit run QuizForgeAI.py
 ```
 
 ## 📚 Usage
--Upload a PDF or text file containing study material.
--Select the number of questions, subject, and difficulty level.
--Click Generate Quiz.
--View generated MCQs and evaluation.
--Download results as JSON or CSV.
+- Upload a PDF or text file containing study material.
+- Select the number of questions, subject, and difficulty level.
+- Click Generate Quiz.
+- View generated MCQs and evaluation.
+- Download results as JSON or CSV.
 
 ## 🔒 Notes
--Never commit your .env file or API keys to GitHub.
--For best results, use well-structured educational PDFs or clean text files.
+- Never commit your .env file or API keys to GitHub.
+- For best results, use well-structured educational PDFs or clean text files.
 
 ## 🏷️ Tags
 #GenerativeAI #LangChain #DeepSeek #Streamlit #Python #EdTech
