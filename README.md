@@ -27,27 +27,37 @@ A smart MCQ Generator powered by **Generative AI**. Upload your PDFs or text fil
 ```bash
 git clone https://github.com/shashwat-projects/MCQGenerator.git
 cd MCQGenerator
-
+```
+### 2️⃣ Create and Activate Virtual Environment
+```bash
 python -m venv venv
 source venv/bin/activate   # On Mac/Linux
 venv\Scripts\activate      # On Windows
-
+```
+### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
+### 4️⃣ Add Your HuggingFace Token
+#### Add your_huggingface_token_here in the .env file in the project root:
+```bash
 HUGGINGFACEHUB_API_TOKEN=your_huggingface_token_here
-
+```
+### 5️⃣ Run the App
+```bash
 streamlit run QuizForgeAI.py
+```
 
 ## 📚 Usage
-Upload a PDF or text file containing study material.
-Select the number of questions, subject, and difficulty level.
-Click Generate Quiz.
-View generated MCQs and evaluation.
-Download results as JSON or CSV.
+-Upload a PDF or text file containing study material.
+-Select the number of questions, subject, and difficulty level.
+-Click Generate Quiz.
+-View generated MCQs and evaluation.
+-Download results as JSON or CSV.
 
 ## 🔒 Notes
-Never commit your .env file or API keys to GitHub.
-For best results, use well-structured educational PDFs or clean text files.
+-Never commit your .env file or API keys to GitHub.
+-For best results, use well-structured educational PDFs or clean text files.
 
-##🏷️ Tags
+## 🏷️ Tags
 #GenerativeAI #LangChain #DeepSeek #Streamlit #Python #EdTech
